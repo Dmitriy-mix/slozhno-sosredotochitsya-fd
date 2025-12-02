@@ -329,6 +329,7 @@
 
   .section__pictures-section-grid-container {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, min-content);
     gap: 20px;
   }
 
@@ -356,11 +357,6 @@
 
   .section__pictures-section-grid-container {
     grid-template-rows: repeat(3, min-content);
-  }
-
-  .theme-dark .header__decorative-text {
-    top: 20px;
-    right: 47px;
   }
 
   .decorative-corner::after {
