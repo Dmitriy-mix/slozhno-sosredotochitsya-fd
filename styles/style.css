@@ -355,10 +355,6 @@
     font-size: var(--font-size-clamp-desctop);
   }
 
-  .section__pictures-section-grid-container {
-    grid-template-rows: repeat(3, min-content);
-  }
-
   .decorative-corner::after {
     top: 20px;
     right: 20px;
