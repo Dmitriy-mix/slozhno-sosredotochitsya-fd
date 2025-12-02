@@ -4,8 +4,9 @@
 */
 
 :root {
-  --bg-image: url("/images/cover-image-dark.png");
+  --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #00022b;
+  --bg-color-container: var(--bg-color);
   --accent-color: #ff0070;
   --text-shadow: var(--accent-color);
   --text-color: #f1b2ce;
@@ -14,7 +15,7 @@
   --text-color-header: #000028;
   --header-fc-color: #db00ff;
   --button-color: var(--accent-color);
-  --font-family: 'IBM Plex mono', sans-serif;
+  --font-family: 'IBM Plex mono', monospace;
   --bf-weight: 700;
   --font-size: 18px;
   --font-weight: 400;
@@ -22,7 +23,8 @@
   --font-weight-bold: 700;
   --cb-line-height: 25.5px;
   --little-line-height: 82.5%;
-  --gap-10: 10px;
+  --font-size-clamp-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-clamp-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
 
