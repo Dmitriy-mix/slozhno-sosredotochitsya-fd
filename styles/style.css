@@ -11,10 +11,6 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 
-.header__decorative-text {
-  display: none;
-}
-
 .header {
   min-block-size: 668px;
   display: grid;
@@ -99,7 +95,7 @@
 }
 
 .main__section__text-link:hover {
-  border-bottom: 1px solid var(--button-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 .main__section__text-link:focus-visible {
@@ -108,7 +104,7 @@
   background-color: var(--cb-line-height);
 }
 
-.theme-dark .header__decorative-text {
+.header__decorative-text {
   position: absolute;
   top: 10px;
   right: 38px;
@@ -121,7 +117,7 @@
   color: var(--accent-color);
 }
 
-.theme-dark .header__decorative-text::before {
+.header__decorative-text::before {
   content: "";
   background: var(--accent-color);
   box-shadow: 0px 0px 4px 2px var(--accent-color);
@@ -215,7 +211,6 @@
   align-items: center;
   position: relative;
   min-block-size: 668px;
-  background-color: var(--bg-color);
 }
 
 .footer__title {
@@ -362,6 +357,11 @@
   .decorative-corner::before {
     bottom: 20px;
     left: 20px;
+  }
+
+  .header__decorative-text {
+    top: 20px;
+    right: 48px;
   }
 }
 

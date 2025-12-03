@@ -16,6 +16,11 @@
   --button-color-border: #32312d66;
 }
 
+
+:root.theme-light .header__decorative-text {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url("../images/cover-image-light.png");
@@ -27,5 +32,9 @@
     --header-fc-color: #ffc2e6;
     --button-color: var(--accent-color);
     --button-color-border: #32312d66;
+  }
+
+  .header__decorative-text {
+    display: none;
   }
 }
