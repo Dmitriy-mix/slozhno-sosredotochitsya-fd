@@ -388,11 +388,15 @@
   .content-table .main__section__item {
     grid-template-rows: auto 1fr;
     grid-column: auto;
-    grid-row: 2;
   }
 
   .content-table {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
+  }
+
+  .content-table .main__section__title {
+    grid-column: 1/4;
+    width: 33%;
   }
 }
