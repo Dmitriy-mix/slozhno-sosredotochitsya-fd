@@ -143,7 +143,6 @@
 .main {
   padding: 40px 10px;
   display: grid;
-  background-color: var(--bg-color-container);
   gap: 48px;
 }
 

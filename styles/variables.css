@@ -6,7 +6,6 @@
 :root {
   --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #00022b;
-  --bg-color-container: var(--bg-color);
   --accent-color: #ff0070;
   --text-shadow: var(--accent-color);
   --text-color: #f1b2ce;

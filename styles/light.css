@@ -7,7 +7,6 @@
 :root.theme-light {
   --bg-image: url("../images/cover-image-light.png");
   --bg-color: #FFF1F7;
-  --bg-color-container: #ffffff00;
   --accent-color: #353430;
   --text-shadow: #ff8dcb;
   --bg-color-section: var(--text-shadow);
@@ -21,7 +20,6 @@
   :root {
     --bg-image: url("../images/cover-image-light.png");
     --bg-color: #ffeef6;
-    --bg-color-container: #ffffff00;
     --accent-color: #353430;
     --text-shadow: #ff8dcb;
     --bg-color-section: var(--text-shadow);
